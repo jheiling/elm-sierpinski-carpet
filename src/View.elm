@@ -16,8 +16,7 @@ view ( w , h ) model =
     pixel' = pixel model
     wMax = toFloat ( w - 1 ) / pixelSizeX |> ceiling
     hMax = toFloat ( h - 1 ) / pixelSizeY |> ceiling
-    pixelSizeX = fst model.pixelSize
-    pixelSizeY = snd model.pixelSize
+    ( pixelSizeX , pixelSizeY ) = model.pixelSize
     offsetX = ( toFloat -w ) / 2.0
     offsetY = ( toFloat -h ) / 2.0
   in
