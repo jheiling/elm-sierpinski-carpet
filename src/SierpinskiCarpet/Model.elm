@@ -1,4 +1,4 @@
-module Model ( Model , defaultModel , isFilled ) where
+module SierpinskiCarpet.Model ( Model , defaultModel , isFilled ) where
 
 import Color exposing ( Color , red )
 
@@ -17,7 +17,7 @@ defaultModel =
 
 isFilled : Int -> Int -> Bool
 isFilled x y =
-  if x > 0 || y > 0 then
+  if x > 0 && y > 0 then
     if x % 3 == 1 && y % 3 == 1 then False
     else isFilled ( x // 3 ) ( y // 3 )
   else True

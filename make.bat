@@ -1,2 +1,2 @@
-elm-make src/Main.elm --output=bin/sierpinski.js
+elm-make src/SierpinskiCarpet/Main.elm --output=bin/sierpinski.js
 pause
