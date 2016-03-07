@@ -5,9 +5,13 @@
   "main": "src/electron/main.js",
   "scripts": {
     "make": "make.sh",
-    "release": "release.sh"
+    "release": "release.sh",
+    "run": "run.sh"
   },
   "author": "Jürgen Heiling",
   "license": "SEE LICENSE IN LICENSE",
-  "repository": "https://github.com/jheiling/elm-sierpinski-carpet.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jheiling/elm-sierpinski-carpet.git"
+  }
 }
