@@ -4,7 +4,8 @@
   "description": "Sierpinski Carpet",
   "main": "src/electron/main.js",
   "scripts": {
-    "make": "make.sh"
+    "make": "make.sh",
+    "release": "release.sh"
   },
   "author": "Jürgen Heiling",
   "license": "SEE LICENSE IN LICENSE",
