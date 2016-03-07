@@ -1,0 +1,12 @@
+{
+  "name": "electron-elm-sierpinski-carpet",
+  "version": "2.1.0",
+  "description": "Sierpinski Carpet",
+  "main": "src/electron/main.js",
+  "scripts": {
+    "make": "make.sh"
+  },
+  "author": "Jürgen Heiling",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": "https://github.com/jheiling/elm-sierpinski-carpet.git"
+}
